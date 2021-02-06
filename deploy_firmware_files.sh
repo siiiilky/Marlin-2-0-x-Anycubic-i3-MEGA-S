@@ -15,7 +15,7 @@ else
     mkdir -p $OUTPUT_FOLDER/$CUSTOM_BUILD_VERSION
 fi
 
-echo "Knutwurst's Mega Firmware Version: $CUSTOM_BUILD_VERSION"
+echo "Siiiilkys fork of the Knutwurst Mega Firmware Version: $CUSTOM_BUILD_VERSION"
 
 pushd $FIRMWARE_FOLDER
   for dir in $FIRMWARE_FOLDER/*/
